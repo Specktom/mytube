@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile - MyTube</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="index.html">← Home</a>
+  <h2>My Profile</h2>
+</header>
+
+<main class="container">
+
+  <label>Profile Picture URL</label>
+  <input id="avatar" placeholder="https://image-url.com/avatar.png">
+
+  <label>Banner Image URL</label>
+  <input id="banner" placeholder="https://image-url.com/banner.png">
+
+  <label>Bio</label>
+  <textarea id="bio" rows="4"></textarea>
+
+  <button onclick="saveProfile()">Save Profile</button>
+
+</main>
+
+<script type="module" src="js/auth-guard.js"></script>
+<script type="module" src="js/profile.js"></script>
+</body>
+</html>

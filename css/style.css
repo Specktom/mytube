@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* ---------- HEADER ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 12px 20px;
+  background: #1c1c1c;
+}
+
+.logo {
+  color: red;
+}
+
+.search {
+  flex: 1;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- MAIN ---------- */
+.section-title {
+  padding: 16px 20px;
+}
+
+.video-grid {
+  padding: 0 20px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- VIDEO CARD ---------- */
+.video-card {
+  background: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.video-card video {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  background: black;
+}
+
+.video-info {
+  padding: 10px;
+}
+
+.video-info h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.author {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.stats {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #aaa;
+}
+
+
+.auth-box {
+  width: 300px;
+  margin: 120px auto;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-box input,
+.auth-box button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+
+.container {
+  padding: 20px;
+}
+
+.channel-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #444;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.video-card video {
+  width: 100%;
+  border-radius: 8px;
+}

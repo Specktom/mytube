@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyTube</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>MyTube</h1>
+
+  <input id="searchInput" placeholder="Search videos or channels">
+
+  <div class="nav">
+    <a href="profile.html" id="user"></a>
+    <a href="upload.html">Upload</a>
+
+    <a href="admin.html" id="adminBtn" style="display:none">Admin</a>
+    <button onclick="logout()">Logout</button>
+  </div>
+</header>
+
+<main class="container">
+  <div id="videos" class="video-grid"></div>
+</main>
+
+<script type="module" src="js/auth-guard.js"></script>
+<script type="module" src="js/index.js"></script>
+</body>
+</html>

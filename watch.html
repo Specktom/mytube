@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Watch | MyTube</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<script src="js/auth-guard.js"></script>
+
+<div class="watch-container">
+  <h2 id="title"></h2>
+
+  <video id="video" controls></video>
+
+  <p>👀 <span id="views">0</span></p>
+
+  <button id="likeBtn">👍 0</button>
+
+  <hr>
+
+  <h3>Comments</h3>
+
+  <textarea id="commentText" placeholder="Write a comment..."></textarea>
+  <button id="commentBtn">Post</button>
+
+  <div id="comments"></div>
+</div>
+
+<script type="module" src="js/watch.js"></script>
+</body>
+</html>
