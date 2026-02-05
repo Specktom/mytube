@@ -4,12 +4,12 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.23.0/firebase
 
 /* 🔥 FIREBASE CONFIG 🔥 */
 const firebaseConfig = {
-  apiKey: "AIzaSyDJSWhP3DjPm0eyfZw6kXvXK5iwKn1VfLo",
-  authDomain: "mytube-1b96e.firebaseapp.com",
-  projectId: "mytube-1b96e",
-  storageBucket: "mytube-1b96e.appspot.com",
-  messagingSenderId: "172386030935",
-  appId: "1:172386030935:web:2a62ababc3aef2600b5a12"
+  apiKey: "Your api key ",
+  authDomain: "Your auth domain",
+  projectId: "Your project id",
+  storageBucket: "Your storage bucket ",
+  messagingSenderId: "Your messaging sender id",
+  appId: "Your app id"
 };
 /* ✅ EXPORT BOTH */
 export const app = initializeApp(firebaseConfig);
